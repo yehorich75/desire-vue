@@ -6,17 +6,16 @@
   </header>
 </template>
 
-<script lang="ts">
-  import { defineComponent } from 'vue';
-  import HeaderInner from 'HeaderInner.vue';
+// <script lang="ts">
+//   import { defineComponent } from 'vue';
 
-  export default defineComponent({
-    name: 'Header',
-    components: {
-      HeaderInner
-    }
-  })
-</script>
+//   export default defineComponent({
+//     name: 'Header',
+//     components: {
+//       Header
+//     }
+//   })
+// </script>
 
 <style scoped>
 
