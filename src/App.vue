@@ -1,8 +1,6 @@
 <template>
 
-  <Header>
-    <HeaderInner />
-  </Header>
+  <Header />
 
 </template>
 

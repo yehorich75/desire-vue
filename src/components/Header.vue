@@ -1,21 +1,22 @@
 <template>
   <header class="header">
     <div class="container">
-
+      <HeaderInner />
     </div>
   </header>
 </template>
 
-// <script lang="ts">
-//   import { defineComponent } from 'vue';
+<script lang="ts">
+  import { defineComponent } from 'vue';
+  import HeaderInner from 'HeaderInner.vue';
 
-//   export default defineComponent({
-//     name: 'Header',
-//     components: {
-//       Header
-//     }
-//   })
-// </script>
+  export default defineComponent({
+    name: 'Header',
+    components: {
+      HeaderInner
+    }
+  })
+</script>
 
 <style scoped>
 
