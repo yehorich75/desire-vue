@@ -38,22 +38,59 @@
             </ul>
         </nav>
         <button class="header__btn">
-            <img src="images/icon_menu.svg" alt="icon menu">
+            <img src="./../assets/images/icon_menu.svg" alt="icon menu">
         </button>
 
-        <div class="side-menu side-menu--close">
-            <button class="side-menu__close">
-                <img src="images/close.svg" alt="Close button">
-            </button>
-            <div class="side-menu__content">
-                <a class="side-menu__logo" href="#">
-                    <img src="images/logo-big.svg" alt="big logo">
-                </a>
-            <h4 class="side-menu__title">Furniture for life</h4>
-            <p class="side-menu__text">Sustainable hot chicken skateboard, dreamcatcher meggings actually squid.
-                Slow-carb everyday carry +1 art party microdosing, put a bird on it brooklyn</p>
-            <img src="images/side-menu__img.jpg" alt="Side Menu Image" class="side-menu__img">
-            </div>
-        </div>
+        <SideMenu />
     </div>    
 </template>
+
+<script lang="ts">
+    import { defineComponent } from 'vue';
+    import SideMenu from './SideMenu.vue';
+
+export default defineComponent({
+    name: 'HeaderInner',
+    components: {
+        SideMenu
+    }
+})
+</script>
+
+<style scoped>
+/* Header */
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12rem;
+}
+.header__btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.menu {
+    padding-right: 1.5rem;
+    font-size: 1.6rem;
+}
+.menu__list {
+    display: flex;
+    list-style: none;
+}
+.menu__list-item {
+    padding-right: 4.5rem;
+    padding-left: 3.5rem;
+}
+.menu__list-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgba(54, 56, 56, 0.9);
+}
+</style>
