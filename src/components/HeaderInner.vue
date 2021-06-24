@@ -38,7 +38,7 @@
             </ul>
         </nav>
         <button class="header__btn">
-            <img src="./../assets/images/icon_menu.svg" alt="icon menu">
+            <img src="src/assets/images/svg/icon_menu.svg" alt="icon menu">
         </button>
 
         <SideMenu />

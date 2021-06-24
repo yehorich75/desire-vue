@@ -1,16 +1,16 @@
 <template>
     <div class="side-menu side-menu--close">
         <button class="side-menu__close">
-            <img src="./../assets/images/close.svg" alt="Close button">
+            <img src="../assets/images/svg/close.svg" alt="Close button">
         </button>
         <div class="side-menu__content">
             <a class="side-menu__logo" href="#">
-                <img src="./../assets/images/logo-big.svg" alt="big logo">
+                <img src="../assets/images/svg/logo-big.svg" alt="big logo">
             </a>
         <h4 class="side-menu__title">Furniture for life</h4>
         <p class="side-menu__text">Sustainable hot chicken skateboard, dreamcatcher meggings actually squid.
             Slow-carb everyday carry +1 art party microdosing, put a bird on it brooklyn</p>
-        <img src="./../assets/images/side-menu__img.jpg" alt="Side Menu Image" class="side-menu__img">
+        <img src="../assets/images/side-menu__img.jpg" alt="Side Menu Image" class="side-menu__img">
         </div>
     </div>
 </template>
