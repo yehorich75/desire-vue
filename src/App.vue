@@ -1,7 +1,13 @@
 <template>
 
   <Header>
-    <HeaderInner />
+    <HeaderInner>
+      <header class="header">
+        <div class="container">
+          <header-inner />
+        </div>
+      </header>
+    </HeaderInner>
   </Header>
 
 </template>
@@ -9,16 +15,17 @@
 // https://stackoverflow.com/questions/32805559/typescript-es6-import-module-file-is-not-a-module-error
 
 <script lang="ts">
-import { defineComponent } from 'vue'
-import Header from './components/Header.vue'
-// import HeaderInner from './components/HeaderInner.vue'
+  import { defineComponent } from 'vue'
+  import Header from './components/Header.vue'
+  import HeaderInner from './components/HeaderInner.vue'
 
-export default defineComponent({
-  name: 'App',
-  components: {
-    Header
-  }
-})
+  export default defineComponent({
+    name: 'App',
+    components: {
+      Header,
+      HeaderInner
+    }
+  })
 </script>
 
 
