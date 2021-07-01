@@ -1,9 +1,5 @@
 <template>
-  <header class="header">
-    <div class="container">
       <HeaderInner />
-    </div>
-  </header>
 </template>
 
 <script lang="ts">

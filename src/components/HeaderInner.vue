@@ -1,34 +1,40 @@
 <template>
-    <div class="header__inner">
-        <nav class="menu">
-            <ul class="menu__list">
-                <li class="menu__list-item">
-                    <a class="menu__list-link" href="#">Про нас</a>
-                </li>
-                <li class="menu__list-item">
-                    <a class="menu__list-link" href="#">Gallery</a>
-                </li>
-            </ul>
-        </nav>
-        <a href="#" class="logo">
-            <header-logo />
-        </a>
-        <nav class="menu">
-            <ul class="menu__list">
-                <li class="menu__list-item">
-                    <a class="menu__list-link" href="#">Blog</a>
-                </li>
-                <li class="menu__list-item">
-                    <a class="menu__list-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <button class="header__btn">
-            <img src="src/assets/images/svg/icon_menu.svg" alt="icon menu">
-        </button>
 
-        <SideMenu />
-    </div>    
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Про нас</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Gallery</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#" class="logo">
+                    <header-logo />
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Blog</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="header__btn">
+                    <img src="src/assets/images/svg/icon_menu.svg" alt="icon menu">
+                </button>
+
+                <SideMenu />
+            </div>
+        </div>
+    </header>
+    
 </template>
 
 <script lang="ts">

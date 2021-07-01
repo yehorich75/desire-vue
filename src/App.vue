@@ -1,14 +1,12 @@
 <template>
-
+<div class="wrapper">
   <Header>
-    <HeaderInner>
-      <header class="header">
-        <div class="container">
-          <header-inner />
-        </div>
-      </header>
-    </HeaderInner>
+    <HeaderInner />
+
   </Header>
+  <Main />
+</div>
+
 
 </template>
 
@@ -18,12 +16,14 @@
   import { defineComponent } from 'vue'
   import Header from './components/Header.vue'
   import HeaderInner from './components/HeaderInner.vue'
+  import Main from './components/Main.vue'
 
   export default defineComponent({
     name: 'App',
     components: {
       Header,
-      HeaderInner
+      HeaderInner,
+      Main
     }
   })
 </script>
